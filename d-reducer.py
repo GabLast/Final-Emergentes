@@ -28,8 +28,9 @@ for line in sys.stdin:
             if not flag:
                 montoCiudadMayor = montoActual
                 ciudadMayor = ciudadActual
+                flag = True
 
-            if montoActual > montoCiudadMayor:
+            elif montoActual > montoCiudadMayor:
                 montoCiudadMayor = montoActual
                 ciudadMayor = ciudadActual
 
@@ -38,4 +39,4 @@ for line in sys.stdin:
 
 
 if ciudadMayor:
-    print("Ciudad de Monto Mayor: %s\t\t\t%d" % (ciudadMayor, montoCiudadMayor))
+    print("Ciudad de Monto Mayor: %s\t%d" % (ciudadMayor, montoCiudadMayor))

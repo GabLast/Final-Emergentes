@@ -34,7 +34,7 @@ for line in sys.stdin:
                 mesMenor = mesActual
 
                 flag = True
-            if montoActual > montoMesMayor:
+            elif montoActual > montoMesMayor:
                 montoMesMayor = montoActual
                 mesMayor = mesActual
 
@@ -47,5 +47,5 @@ for line in sys.stdin:
 
 
 if mesMayor and mesMenor:
-    print("Mes y monto mayor: %s\t\t\t%d\n"
-          "Mes y monto menor: %s\t\t\t%d" % (mesMayor, montoMesMayor, mesMenor, montoMesMenor))
+    print("Mes y monto mayor: %s\t%d\n"
+          "Mes y monto menor: %s\t%d" % (mesMayor, montoMesMayor, mesMenor, montoMesMenor))
