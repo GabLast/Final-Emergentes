@@ -73,5 +73,4 @@ for line in sys.stdin:
         monto_actual = monto
 
 if ciudad_actual == ciudad:
-    print
-    "%s %d" % (ciudad_mayor, monto_mayor)
+    print("%s %d" % (ciudad_mayor, monto_mayor))

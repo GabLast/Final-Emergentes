@@ -91,5 +91,4 @@ for line in sys.stdin:
         monto_actual = monto
 
 if mes_actual == mes:
-    print
-    "Menor: %s %d\tMayor: %s %d" % (mes_menor, monto_menor, mes_mayor, monto_mayor)
+    print("Menor: %s %d\tMayor: %s %d" % (mes_menor, monto_menor, mes_mayor, monto_mayor))
