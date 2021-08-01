@@ -13,4 +13,4 @@ for line in sys.stdin:
         continue
 
     if ciudad:
-        print("%s %d" % (ciudad, monto))
+        print("%s %d" % (ciudad.upper(), monto))

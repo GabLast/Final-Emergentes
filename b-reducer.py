@@ -26,4 +26,4 @@ for line in sys.stdin:
 
 #last case for last output
 if mesActual == mesNext:
-    print("%s\t%d" % (mesActual, montoActual))
+    print("%s\t\t\t%d" % (mesActual, montoActual))

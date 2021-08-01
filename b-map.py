@@ -13,4 +13,4 @@ for line in sys.stdin:
         continue
 
     if mes:
-        print("%s %d" % (mes, monto))
+        print("%s %d" % (mes.upper(), monto))

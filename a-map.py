@@ -14,4 +14,4 @@ for line in sys.stdin:
         continue
 
     if mesUp == 'MAYO' or mesUp == 'JULIO' or mesUp == 'DICIEMBRE':
-        print("%s %d" % (ciudad, monto))
+        print("%s %d" % (ciudad.upper(), monto))

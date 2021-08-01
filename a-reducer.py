@@ -26,4 +26,4 @@ for line in sys.stdin:
 
 #last case for last output
 if ciudadActual == ciudadNext:
-    print("%s\t%d" % (ciudadActual, montoActual))
+    print("%s\t\t\t%d" % (ciudadActual, montoActual))
