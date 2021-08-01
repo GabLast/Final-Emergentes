@@ -21,10 +21,10 @@ for line in sys.stdin:
         montoActual += monto
     else:
         if mesActual:
-            print("%s\t%s\t%d" % (mesActual, montoActual))
+            print("%s\t%d" % (mesActual, montoActual))
         montoActual = monto
         mesActual = mesNext
 
 #last case for last output
 if mesActual == mesNext:
-    print("%s\t%s\t%d" % (mesActual, montoActual))
+    print("%s\t%d" % (mesActual, montoActual))
