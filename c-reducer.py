@@ -45,7 +45,16 @@ for line in sys.stdin:
         montoActual = monto
         mesActual = mesNext
 
-
+#last case for last output
+if mesActual == mesNext:
+    montoActual += monto
+if montoActual > montoMesMayor:
+    montoMesMayor = montoActual
+    mesMayor = mesActual
+elif montoActual < montoMesMenor:
+    montoMesMenor = montoActual
+    mesMenor = mesActual
+                
 if mesMayor and mesMenor:
     print("Mes y monto mayor: %s\t%d\n"
           "Mes y monto menor: %s\t%d" % (mesMayor, montoMesMayor, mesMenor, montoMesMenor))
