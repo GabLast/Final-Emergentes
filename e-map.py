@@ -17,4 +17,4 @@ for line in sys.stdin:
 
     if mesUp == 'ENERO' or mesUp == 'MARZO':
         if ciudadUp == 'SANTIAGO' or ciudadUp == 'LA_VEGA' or ciudadUp == 'MOCA':
-            print("%s %d" % (mesUp, monto))
+            print("%s %s %d" % (ciudad, mes, monto))
